@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/nearraenn/Desktop/le484project/LE484-project/TrafficLightController/Inc
+HeaderPath=C:/Users/student/Desktop/le484-project/TrafficLightController/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/nearraenn/Desktop/le484project/LE484-project/TrafficLightController/Src
+SourcePath=C:/Users/student/Desktop/le484-project/TrafficLightController/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

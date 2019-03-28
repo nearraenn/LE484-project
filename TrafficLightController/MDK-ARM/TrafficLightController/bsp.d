@@ -1,4 +1,4 @@
-trafficlightcontroller\bsp.o: bsp.c
+trafficlightcontroller\bsp.o: ..\Src\bsp.c
 trafficlightcontroller\bsp.o: ../Inc/bsp.h
 trafficlightcontroller\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 trafficlightcontroller\bsp.o: ../Inc/stm32f4xx_hal_conf.h
@@ -28,3 +28,5 @@ trafficlightcontroller\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_
 trafficlightcontroller\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 trafficlightcontroller\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 trafficlightcontroller\bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+trafficlightcontroller\bsp.o: ../Inc/main.h
+trafficlightcontroller\bsp.o: ../Inc/timer.h
