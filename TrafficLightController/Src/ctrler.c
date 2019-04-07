@@ -19,7 +19,7 @@ uint32_t Ctrler_Exec(Event_t evt)
 		static int Count=0;
 		//printf("Tick = %d\n",Tick);
 		//printf("Timeout_Value = %d\n",Timeout_Value);
-int TimeGreen  = Green_selected(); // Time of Green 60/120
+		int TimeGreen  = Green_selected(); // Time of Green 60/120
     uint32_t timeout_value = 0; //reset timeout		
     switch(Ctrler_State) {
         case RESTART:
@@ -69,7 +69,7 @@ int TimeGreen  = Green_selected(); // Time of Green 60/120
 				case WAIT:
 							printf("WAIT STATE \n");
 				int e = (TimeGreen - ((Count%TimeGreen)*100))/10;
-				printf("Wait %d seconds\n",e);
+				printf("Wait for %d second\n",e);
 							timeout_value = TimeGreen - ((Count%TimeGreen)*100);
 							Ctrler_State = BLOCKED;
 						break;

@@ -1,8 +1,7 @@
-# LE484-project
-Demo repository for LE484 Micro App at Thammasat University
+# le484-project
+demo repository fot LE484 Micro App at Thammasat University
 
-## Traffic Light Controller
-Traffic light controller for pedestrian crossing 
+## Traffic Light Controller for pedestrain crossing
 
 * TLC-01	Controller shall operate two lamp poles for roadway traffic signal and two lamp poles for pedestrian signal
 * TLC-02	Controller shall display countdown signals for both roadway and pedestrian

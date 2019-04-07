@@ -29,7 +29,7 @@ void Signal_Pass(void)
 	}
 }
 
-	printf ("Dont Walk Bro!!\n");
+	
 	DONT_WALK_ON();
 	Delay(20);
 	RED_OFF();
