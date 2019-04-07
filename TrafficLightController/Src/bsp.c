@@ -31,6 +31,7 @@ void Signal_Pass(void)
 
 	
 	DONT_WALK_ON();
+	printf ("DON'T WALK!\n");
 	Delay(20);
 	RED_OFF();
 	Delay(5);
@@ -51,6 +52,7 @@ void Signal_Block(void)
     RED_ON();
 		Delay(20);
 		DONT_WALK_OFF();
+		printf ("WALK!\n");
 		Delay(5);
 		
 		WALK_ON();
